@@ -1,38 +1,68 @@
-.App {
+body{
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333;
+}
+h2{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: solid 1px transparent;
+  border-radius: 4px;
+}
+.tuzimbe-panel{
+  border-color: #563d7c;
+}
+.tuzimbe-panel .panel-heading {
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #563d7c;
+  border-color: #563d7c;
+}
+.title{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.panel-body{
+  padding: 28px;
+}
+.panel-container{
+  margin-left: 27%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+.btn-outline{
+  color: #563d7c !important;
+  border-color: #563d7c !important;
+}
+.panel-footer{
+  padding: 0px 0px 10px 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.spinner-wrapper{
+  z-index: 1000000000;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(105, 105, 105, 0.2);
 }
+.spinner-centered{
+  width: 3rem;
+  height: 3rem;
+  top: 0 !important;
+  left: 10% !important;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
