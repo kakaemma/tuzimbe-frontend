@@ -1,58 +1,50 @@
 import { Link } from "react-router-dom";
 
 
-const AddWorkDetailsForm=(props)=>{
-    const {  onChange, handleSubmit, arrival_time, departure_time } =props
+const AddMaterialDetailsForm=(props)=>{
+    const {  onChange, handleSubmit } =props
     return(
         <div className="container-fluid">
         <div className="container panel-container-margin-top">
             <div className="row">
-                <div className="col-12">
+                <div className="col-9">
                     <div className="panel tuzimbe-panel">
                         <div className="panel-heading">
-                            <h2 className="title">Add Daily Worker Details</h2>
+                            <h2 className="title">Add Daily Material Details</h2>
                         </div>
                         <div className="panel-body">
         <form className="form-inline" onSubmit={handleSubmit}>
         <div className="form-group mr-3">
-        <input
-                type="text" className="form-control"
-                name="name" id="name"
-                onChange={onChange}
-                required={true}
-                title="Workers name"
-                placeholder="Workers name"/>
+             <select name="material_type" required={true} onChange={onChange} className="form-control">
+                <option>Select material</option>
+                <option>sand</option>
+                <option>cement</option>
+                <option>bricks</option>
+                <option>nails</option>
+                <option>water</option>
+                <option>stone aggregates</option>
+            </select>
         </div>
 
-        <div className="form-group mr-3">
-            <input
-                type="text" className="form-control"
-                name="arrival_time" id="arrival_time"
-                onChange={onChange}
-                required={true}
-                title="Arrival Time ()"
-                placeholder="Arrival Time (2022-10-10 10:10:00)"/>
-           </div>
-
-        <div className="form-group mr-3">
-        <input
-                type="text" className="form-control"
-                name="departure_time" id="departure_time"
-                onChange={onChange}
-                required={true}
-                title="Departure Time Time (2022-10-10 10:10:00)"
-                placeholder="Departure Time (2022-10-10 10:10:00)"/>
-        </div>
         <br></br>
 
         <div className="form-group mr-3">
             <input
                 type="text" className="form-control"
-                name="daily_rate" id="daily_rate"
+                name="quantity" id="quantity"
                 onChange={onChange}
                 required={true}
-                title="Daily Rate"
-                placeholder="Daily Rate"/>
+                title="Quantity"
+                placeholder="Quantity"/>
+        </div>
+        <div className="form-group mr-3">
+            <input
+                type="text" className="form-control"
+                name="unit_price" id="unit_price"
+                onChange={onChange}
+                required={true}
+                title="Unit Price"
+                placeholder="Unit price"/>
         </div>
         <div className="form-group mr-3">
             <button type="submit" className="btn btn-outline">Add Details</button>
@@ -72,4 +64,4 @@ const AddWorkDetailsForm=(props)=>{
     )
 }
 
-export default AddWorkDetailsForm;
+export default AddMaterialDetailsForm;

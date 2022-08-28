@@ -8,6 +8,7 @@ import './App.css';
 import Home from './components/Home';
 import AddUser from './components/AddUser';
 import AddWorkDetails from './components/AddWorkDetails';
+import AddMaterialDetails from './components/AddMaterialDetails'
 import PageLoader from './components/PageLoader';
 import store from './store';
 
@@ -22,6 +23,8 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/users' element={<AddUser/>} />        
           <Route path='/worker/details' element={<AddWorkDetails/>} />         
+          <Route path='/materials' element={<AddMaterialDetails/>} />         
+
  
         </Routes>
         <ToastContainer

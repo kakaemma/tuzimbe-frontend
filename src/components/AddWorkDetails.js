@@ -17,7 +17,6 @@ class AddWorkDetails extends Component{
     onChange =event=>{
         const {name,value} = event.target
         this.setState({[name]:value})  
-        console.log(this.state) 
     }
     handleSubmit = event=>{
         event.preventDefault()
