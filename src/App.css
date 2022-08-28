@@ -31,10 +31,18 @@ h2{
   padding: 28px;
 }
 .panel-container{
-  margin-left: 27%;
+  margin-left: 22%;
   margin-right: 15%;
   margin-top: 5%;
 }
+.panel-container-margin-top{
+  margin-top: 5%;
+
+}
+.toastWidth{
+  width: 600px;
+}
+
 .btn-outline{
   color: #563d7c !important;
   border-color: #563d7c !important;

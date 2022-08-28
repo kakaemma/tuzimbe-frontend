@@ -54,7 +54,7 @@ class AddUser extends Component{
     }
 }
 const mapStateToProps =state=>({
-
+    ...state
 })
 
 export default connect(mapStateToProps,{registerUser}) (AddUser)
