@@ -22,7 +22,6 @@ class AddUser extends Component{
         event.preventDefault()
         const {name, user_type} = this.state
         const userData = { name, user_type }
-        console.log(userData)
         const {registerUser} = this.props
         registerUser(userData)
     }

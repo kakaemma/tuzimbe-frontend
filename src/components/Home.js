@@ -14,7 +14,7 @@ class Home extends Component{
                                 <h2 className="title">Welcome to Tuzimbe</h2>
                             </div>
                             <div className="panel-body">
-                                <Link to="/users">Add Users</Link> |  <Link to="worker/details">Add Daily Work Details</Link> | <Link to="user/materials">Add Material Details</Link> | <Link to="/owner/materials">View Material Details</Link>
+                                <Link to="/users">Add Users</Link> |  <Link to="worker/details">Add Daily Work Details</Link> | <Link to="/materials">Add Material Details</Link> | <Link to="/owner/materials">View Material Details</Link>
                             </div>
                         </div>
                     </div>
