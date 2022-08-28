@@ -7,6 +7,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import './App.css';
 import Home from './components/Home';
 import AddUser from './components/AddUser';
+import AddWorkDetails from './components/AddWorkDetails';
 import PageLoader from './components/PageLoader';
 import store from './store';
 
@@ -19,10 +20,12 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path='/users' element={<AddUser/>} />         
+          <Route path='/users' element={<AddUser/>} />        
+          <Route path='/worker/details' element={<AddWorkDetails/>} />         
+ 
         </Routes>
         <ToastContainer
-                position="top-right"
+                position="top-center"
                 closeButton={false}
                 transition={Slide}
                 autoClose= {6000}

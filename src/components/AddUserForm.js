@@ -1,12 +1,11 @@
 const AddUserForm=(props)=>{
-    const { name, user_type, onChange, handleSubmit} =props
+    const {  onChange, handleSubmit} =props
     return(
         <form className="form-inline" onSubmit={handleSubmit}>
         <div className="form-group mr-3">
             <input
                 type="text" className="form-control"
                 name="name" id="name"
-                value={name}
                 onChange={onChange}
                 required={true}
                 title="Enter user's name"
