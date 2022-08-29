@@ -50,7 +50,6 @@ const AddMaterialDetailsForm=(props)=>{
             <button type="submit" className="btn btn-outline">Add Details</button>
         </div>
     </form>
-
     </div>
                             <div className="panel-footer">
                                 <Link to="/">Home</Link> 
