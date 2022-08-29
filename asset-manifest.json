@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tuzimbe-frontend/static/css/main.e19a6b9a.css",
+    "main.js": "/tuzimbe-frontend/static/js/main.90ad7e85.js",
+    "static/js/787.a25cef4a.chunk.js": "/tuzimbe-frontend/static/js/787.a25cef4a.chunk.js",
+    "index.html": "/tuzimbe-frontend/index.html",
+    "main.e19a6b9a.css.map": "/tuzimbe-frontend/static/css/main.e19a6b9a.css.map",
+    "main.90ad7e85.js.map": "/tuzimbe-frontend/static/js/main.90ad7e85.js.map",
+    "787.a25cef4a.chunk.js.map": "/tuzimbe-frontend/static/js/787.a25cef4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e19a6b9a.css",
+    "static/js/main.90ad7e85.js"
+  ]
+}
